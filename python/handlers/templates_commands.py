@@ -6,7 +6,7 @@ from aiogram import Router
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 
-from samples.session_srates import Session_settings, Archive_states
+from samples.session_states import Session_settings, Archive_states
 from services.session_manager import active_session, start_session, run_session
 from data_base import save_session_template, get_unique_templates, get_template_by_id, delete_template
 

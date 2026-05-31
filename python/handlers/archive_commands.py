@@ -4,7 +4,7 @@ from aiogram import Router
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 
-from samples.session_srates import Archive_states
+from samples.session_states import Archive_states
 from data_base import get_all_user_sessions, delete_session_from_archive
 
 
